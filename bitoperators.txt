@@ -1,0 +1,23 @@
+ bitwise OR
+int a = 5; // 0101b (0x05)
+int b = 12; // 1100b (0x0C)
+int c = a | b; // 1101b (0x0D)
+std::cout << "a = " << a << ", b = " << b << ", c = " << c << std::endl;
+
+bitwise XOR (exclusive OR)
+int a = 5; // 0101b (0x05)
+int b = 9; // 1001b (0x09)
+int c = a ^ b; // 1100b (0x0C)
+std::cout << "a = " << a << ", b = " << b << ", c = " << c << std::endl;
+
+ bitwise AND
+int a = 6; // 0110b (0x06)
+int b = 10; // 1010b (0x0A)
+int c = a & b; // 0010b (0x02)
+std::cout << "a = " << a << ", b = " << b << ", c = " << c << std::endl;
+
+left shift
+int a = 1; // 0001b
+int b = a << 1; // 0010b
+std::cout << "a = " << a << ", b = " << b << std::endl;
+
